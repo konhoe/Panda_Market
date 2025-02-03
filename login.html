@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  </head>
+
+<body>
+  <div class="login">
+
+    <div class="pandaLogo">
+
+      <img src="logo.png" alt="logo" id="logo">
+
+    </div>
+
+    <div class="email">
+      
+      <label for="email">이메일</label>
+      
+      <div class="email-wrapper">
+
+        <input 
+        id="email-input"
+        name="이메일"
+        placeholder="이메일을 입력해주세요"
+        required
+        type="email">
+
+      </div>
+      
+
+    </div>
+
+    <div class="password">
+    
+      <label for="password">비밀번호</label>
+      
+      <div class="password-wrapper">
+
+        <input
+        id="password-input"
+        name="비밀번호"
+        placeholder="비밀번호를 입력해주세요"
+        required
+        type="password">
+
+        <button type="button" id="togglePassword" aria-label="비밀번호 보기">
+          <img src="btn_visibility_on_24px.png" alt="비밀번호 보기" id="eyeIcon">
+        </button>
+
+      </div>
+      
+
+    </div>
+
+    <button class="loginButton">로그인</button>
+
+    <div class="simple">
+
+
+    </div>
+
+    <div class="sign">
+
+    </div>
+
+
+  </div>
+</body>
